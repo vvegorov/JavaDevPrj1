@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava;
 
 import ru.javawebinar.topjava.model.Role;
@@ -27,3 +28,4 @@ public class UserTestData {
         assertThat(actual).usingElementComparatorIgnoringFields("registered", "roles").isEqualTo(expected);
     }
 }
+*/

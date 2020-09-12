@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava.web.user;
 
 import org.junit.Assert;
@@ -44,3 +45,4 @@ public class InMemoryAdminRestControllerSpringTest {
         controller.delete(10);
     }
 }
+*/

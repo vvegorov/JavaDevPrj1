@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava.repository.inmemory;
 
 import org.springframework.stereotype.Repository;
@@ -35,4 +36,4 @@ public class InMemoryBaseRepository<T extends AbstractBaseEntity> {
     Collection<T> getCollection() {
         return map.values();
     }
-}
+}*/

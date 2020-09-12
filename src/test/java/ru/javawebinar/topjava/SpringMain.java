@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava;
 
 import org.springframework.context.ConfigurableApplicationContext;
@@ -32,3 +33,4 @@ public class SpringMain {
         }
     }
 }
+*/

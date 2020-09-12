@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava.web.meal;
 
 import org.slf4j.Logger;
@@ -61,12 +62,14 @@ public class MealRestController {
         service.update(meal, userId);
     }
 
-    /**
+    */
+/**
      * <ol>Filter separately
      * <li>by date</li>
      * <li>by time for every date</li>
      * </ol>
-     */
+     *//*
+
     public List<MealTo> getBetween(@Nullable LocalDate startDate, @Nullable LocalTime startTime,
                                    @Nullable LocalDate endDate, @Nullable LocalTime endTime) {
         int userId = SecurityUtil.authUserId();
@@ -75,4 +78,4 @@ public class MealRestController {
         List<Meal> mealsDateFiltered = service.getBetweenDates(startDate, endDate, userId);
         return MealsUtil.getFilteredTos(mealsDateFiltered, SecurityUtil.authUserCaloriesPerDay(), startTime, endTime);
     }
-}
+}*/

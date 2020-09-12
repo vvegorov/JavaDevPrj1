@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava.repository.jdbc;
 
 import org.springframework.stereotype.Repository;
@@ -35,3 +36,4 @@ public class JdbcMealRepository implements MealRepository {
         return null;
     }
 }
+*/

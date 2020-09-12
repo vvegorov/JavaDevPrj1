@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava.web.user;
 
 import org.springframework.stereotype.Controller;
@@ -37,4 +38,4 @@ public class AdminRestController extends AbstractUserController {
     public User getByMail(String email) {
         return super.getByMail(email);
     }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 package ru.javawebinar.topjava.web.user;
 
 import org.junit.*;
@@ -48,4 +49,4 @@ public class InMemoryAdminRestControllerTest {
     public void deleteNotFound() throws Exception {
         controller.delete(10);
     }
-}
+}*/
