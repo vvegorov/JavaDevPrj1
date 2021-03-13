@@ -1,4 +1,3 @@
-/*
 package ru.javawebinar.topjava.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,4 +44,4 @@ public class UserService {
     public void update(User user) throws NotFoundException {
         checkNotFoundWithId(repository.save(user), user.getId());
     }
-}*/
+}

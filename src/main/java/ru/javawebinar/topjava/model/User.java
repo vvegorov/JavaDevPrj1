@@ -1,4 +1,3 @@
-/*
 package ru.javawebinar.topjava.model;
 
 import org.springframework.util.CollectionUtils;
@@ -104,4 +103,4 @@ public class User extends AbstractNamedEntity {
                 ", caloriesPerDay=" + caloriesPerDay +
                 '}';
     }
-}*/
+}

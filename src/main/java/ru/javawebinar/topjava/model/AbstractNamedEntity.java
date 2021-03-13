@@ -1,4 +1,3 @@
-/*
 package ru.javawebinar.topjava.model;
 
 public abstract class AbstractNamedEntity extends AbstractBaseEntity {
@@ -25,4 +24,4 @@ public abstract class AbstractNamedEntity extends AbstractBaseEntity {
     public String toString() {
         return super.toString() + '(' + name + ')';
     }
-}*/
+}

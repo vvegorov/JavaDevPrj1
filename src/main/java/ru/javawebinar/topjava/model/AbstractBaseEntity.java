@@ -1,4 +1,3 @@
-/*
 package ru.javawebinar.topjava.model;
 
 public abstract class AbstractBaseEntity {
@@ -46,4 +45,4 @@ public abstract class AbstractBaseEntity {
     public int hashCode() {
         return id == null ? 0 : id;
     }
-}*/
+}
