@@ -1,13 +1,17 @@
-/*
 package ru.javawebinar.topjava.web.user;
 
 import org.springframework.stereotype.Controller;
 import ru.javawebinar.topjava.model.User;
+import ru.javawebinar.topjava.service.UserService;
 
 import java.util.List;
 
 @Controller
 public class AdminRestController extends AbstractUserController {
+
+    public AdminRestController(UserService service) {
+        super(service);
+    }
 
     @Override
     public List<User> getAll() {
@@ -38,4 +42,4 @@ public class AdminRestController extends AbstractUserController {
     public User getByMail(String email) {
         return super.getByMail(email);
     }
-}*/
+}
